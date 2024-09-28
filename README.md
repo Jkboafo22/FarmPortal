@@ -29,7 +29,7 @@ This Farm Locator Web App is designed to help farm owners/Agro companies display
 
 
 
-🌟 Check it out: [https://jkboafo22.github.io/Farm_Locations/]
+🌟 Check it out: [https://jkboafo22.github.io/FarmPortal/]
 
 
 
