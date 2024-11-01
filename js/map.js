@@ -31,7 +31,7 @@ var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={
 // Region Layer Style
 var regionStyle = {
     color: "blue",
-    fillColor: "DimGray",
+    fillColor: "darkslategray",
     opacity: 0.3,
     weight: 1
 }
@@ -45,11 +45,35 @@ var accraStyle = {
 }
 
 // Define marker cluster group
-var markers = L.markerClusterGroup();
+var markers = L.markerClusterGroup(
+    {
+        iconCreateFunction: function(cluster) {
+            // Customize the color of the cluster markers here
+            var childCount = cluster.getChildCount();
+            var color = 'green'; // Set your desired color (e.g., blue)
+    
+            // Define a class for each cluster size if needed
+            var c = ' marker-cluster-';
+            if (childCount < 10) {
+                c += 'small';
+            } else if (childCount < 100) {
+                c += 'medium';
+            } else {
+                c += 'large';
+            }
+    
+            return new L.DivIcon({
+                html: `<div style="background-color:${color}"><span>${childCount}</span></div>`,
+                className: 'marker-cluster' + c,
+                iconSize: new L.Point(40, 40) // Adjust size as needed
+            });
+        }
+    }
+);
 
 // Define custom icon for farms
 var farmIcon = L.icon({
-    iconUrl: 'Img/agriculture-icon.jpg', // Replace with your PNG image path
+    iconUrl: 'Img/plantation_8769904.png', // Replace with your PNG image path
     iconSize: [26, 26], // Adjust the size as needed
     iconAnchor: [13, 26], // Adjust anchor point depending on icon size
     popupAnchor: [0, -26] // Adjust popup anchor point
