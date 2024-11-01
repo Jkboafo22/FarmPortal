@@ -1,4 +1,4 @@
-# $${\color{magenta}🌾A\space FARM\space LOCATOR\space WEB\space APP\space 🚜}$$  
+# $${\color{magenta}🌾A\space Farm\space Portal\space WEBGIS\space 🚜}$$  
 
 
 
@@ -7,7 +7,7 @@
 ## Discover and explore Client farms ! 🌍
 
 💡 Description:
-This Farm Locator Web App is designed to help farm owners/Agro companies display their farms to clients with ease. Using advanced GIS technology, the app provides up-to-date information on farm locations, types of produce, contact details, and more. Whether you're a consumer looking for fresh produce, a farmer wanting to connect with nearby farms, or just someone interested in agriculture, this app is perfect for you!
+This FarmPortal WebGIS is designed to help farm owners/Agro companies display their farms to clients with ease. Using advanced GIS technology, the app provides up-to-date information on farm locations, types of produce, contact details, and more. Whether you're a consumer looking for fresh produce, a farmer wanting to connect with nearby farms, or just someone interested in agriculture, this app is perfect for you!
 
 
 
@@ -33,7 +33,7 @@ This Farm Locator Web App is designed to help farm owners/Agro companies display
 
 
 
-![farm1](https://github.com/Jkboafo22/Farm_Locations/assets/65027196/2ebbee2a-77ae-4edc-af7f-c6a27678f9e5)
+![FP](https://github.com/user-attachments/assets/ec66c066-717b-4308-9d29-bf9681adbe3e)
 
 
 #FarmLocator #WebApp #GIS #Agriculture #OpenSource
